@@ -1,77 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>EarnHub PH - Shopee Deals</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #ff5f6d, #ffc371);
-      text-align: center;
-      color: white;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EarnHub PH - Shopee Deals</title>
 
-    header {
-      padding: 20px;
-      font-size: 28px;
-      font-weight: bold;
-    }
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-    .container {
-      padding: 20px;
-    }
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
 
-    .card {
-      background: white;
-      color: black;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 15px;
-      max-width: 350px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    }
+header {
+  padding: 25px 15px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
 
-    .card h2 {
-      margin-top: 0;
-    }
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+}
 
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 20px;
-      background: #ee4d2d;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
+.card {
+  background: white;
+  color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  text-align: center;
+}
 
-    .btn:hover {
-      background: #d93c1c;
-    }
+.card h2 {
+  margin-bottom: 10px;
+}
 
-    .coins {
-      font-size: 20px;
-      font-weight: bold;
-      color: gold;
-    }
+.card p {
+  margin: 8px 0;
+}
 
-    footer {
-      margin-top: 30px;
-      padding: 15px;
-      font-size: 14px;
-    }
-  </style>
+.coins {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  background: #ee4d2d;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #c7371b;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  font-size: 13px;
+  opacity: 0.9;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  🔥 EarnHub PH 🔥
+🔥 EarnHub PH 🔥
 </header>
 
 <div class="container">
@@ -97,7 +113,7 @@
 </div>
 
 <footer>
-  © 2026 EarnHub PH | Shopee Affiliate Promo
+© 2026 EarnHub PH | Shopee Affiliate Promo
 </footer>
 
 </body>
